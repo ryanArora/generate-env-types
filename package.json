@@ -1,0 +1,33 @@
+{
+  "name": "generate-env-types",
+  "version": "1.0.0",
+  "description": "Generate types from your .env file",
+  "main": "lib/index.js",
+  "bin": {
+    "generate-env-types": "bin/generateEnvTypes.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {},
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "fs-extra": "^10.0.0",
+    "prettier": "^2.5.1",
+    "yargs": "^17.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanArora/gen-env-types.git"
+  },
+  "keywords": [
+    "env",
+    "typescript"
+  ],
+  "author": "Ryan Arora <arora.ryan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanArora/gen-env-types/issues"
+  },
+  "homepage": "https://github.com/ryanArora/gen-env-types#readme"
+}
