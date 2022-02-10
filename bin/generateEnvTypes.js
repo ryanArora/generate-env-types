@@ -15,7 +15,11 @@ const argv = yargs
       default: ".env.example",
       description: "Path to write the .example.env file",
     },
+    pretty: {
+      default: false,
+      description: "Whether to format the output with prettier",
+    },
   })
   .parseSync();
 
-generateFiles(argv.envPath, argv.definitionPath, argv.examplePath);
+generateFiles(argv.envPath, argv.definitionPath, argv.examplePath, argv.pretty);
