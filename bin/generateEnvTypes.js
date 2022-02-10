@@ -12,7 +12,7 @@ const argv = yargs
       description: "Path to write the env.d.ts file",
     },
     examplePath: {
-      default: ".example.env",
+      default: ".env.example",
       description: "Path to write the .example.env file",
     },
   })
